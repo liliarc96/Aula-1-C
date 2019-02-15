@@ -1,11 +1,21 @@
+/*
+• Escreva um programa que declare uma variável do tipo char sem sinal e atribua a ela um valor acima de 127 e imprima-a na tela;
+• Avalie: o que ocorreu com o retorno? Corresponde ao valor que foi atribuído?
+*/
 #include <stdio.h>
 
 int main() {
-	int array_de_inteiro [10] = {1,2,3,4,5,6,7,8,9,10};
+	unsigned char teste_char = 255;
+	char teste_char2 = 127;
+	printf("\nUnsigned é igual a %d e signed é igual a %d.", teste_char, teste_char2);
+/*
+	teste_char = 256;
+	teste_char2 = 128;
+	printf("\nUnsigned é igual a %d e signed é igual a %d.", teste_char, teste_char2);
 
-	//Não instancia o array todo:
-	//int array_errado [10] = {1,2,3};
-
-	printf("O elemento do array é: %d\n", array_de_inteiro[4]);
+	teste_char = 300;
+	teste_char2 = 200;
+	printf("\nUnsigned é igual a %d e signed é igual a %d.", teste_char, teste_char2);
   return 0;
+*/
 }
