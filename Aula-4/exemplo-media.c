@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 //Declaração de variável global:
 char *nome_programa = "Calculando Média";
 
