@@ -16,7 +16,7 @@ Exemplo: x = (a == b)?(a):(b);
   a = 2;
   b = 2;
 */
-  (a == b)?printf("A é igual a B"):printf("A é diferente de B");
+  (a == b)?(printf("A é igual a B")):(printf("A é diferente de B"));
 
-	return 0;
+  return 0;
 }
