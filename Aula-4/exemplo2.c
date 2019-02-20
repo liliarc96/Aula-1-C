@@ -17,9 +17,10 @@ int main(void) {
 	printf("O valor de E é: %d\n", e);
 
 	/*
-O valor de C é: 1
-O valor de D é: 0
-O valor de E é: 1
+	O valor de C é: 1
+	O valor de D é: 0
+	O valor de E é: 1
 	*/
+	
 	return 0;
 }
