@@ -1,9 +1,12 @@
+//Calculadora de Fatorial:
 #include <stdio.h>
 
 int main(void) {
   int numero, contador, fatorial;
+  
   printf("\nDigite um numero inteiro maior que zero: ");
   scanf("%d", &numero);
+  
   fatorial = numero;
 
   if(numero > 0){
@@ -15,5 +18,6 @@ int main(void) {
   else{
     printf("ERRO.");
   }
+  
   return 0;
 }
