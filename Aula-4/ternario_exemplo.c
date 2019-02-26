@@ -14,9 +14,12 @@ int main(void) {
 condicao_logica ? expressa_se_verdadeira : expressao_se_falsa
 Exemplo: x = (a == b)?(a):(b);
   a = 2;
-  b = 2;
+  b = 3;
 */
-  (a == b)?(printf("A é igual a B")):(printf("A é diferente de B"));
-
+  a=2;
+  b=3;
+  (a==b)?(printf("A = B")):(printf("A != B"));
+  a=b=4;
+  (a==b)?(printf("A = B")):(printf("A != B"));
   return 0;
 }
